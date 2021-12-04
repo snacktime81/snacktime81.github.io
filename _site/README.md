@@ -1,62 +1,55 @@
-# Kasper
+### 1.0 repo 만들기
+github 에 snacktime81.github.io repository만듦
 
-This is a port of Ghost's default theme [Casper v1](https://github.com/tryghost/casper) for Jekyll. Here is a live [demo](https://rosario.io/kasper). 
+### 1.1 로컬 저장소 연결
+git clone을 하여 내 노트북에 local repo 를 연결함
 
-Feel free to fork, change, modify and re-use it.
+### 2.0 index.html 생성
+html을 이용하여 index.html파일을 생성
 
-## Installation
+### 3.0 jekyll을 repo에 다운
+404.html, Gemfile, Gemfile.lock, _config.yml, _posts/, about.markdown, index.markdown을 생성하고
+<br>index.html을 삭제
 
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
-    gem install jekyll
-    gem install jekyll-paginate
-    
-## Change _config.yml
+### 4.0 introduce-myself post 작성
+introduce-myself 포스트를 _posts 레포 아래에 생성함
 
-Change the following settings in _config.yaml. Most likely you want the `baseurl: ""`
+### 5.0 Theme 적용
+kasper Theme을 다운 받고 현재 repo에 Gemfile, Gemfile.lock, posts를 제외한 파일들을 수정함'
 
-```
-baseurl: ""
-domain_name: "yourblog-domain.com"
-```
+### 5.1 _config.yml 수정
+name과 meata_description을 수정함
 
-## How to use it
+### 6.0 disqus 다운
+disqus를 introduce81 사이트를 생성
 
-Build page and start local web server
+### 6.1 _config.yam 에 disqus 추가
+_config.yam에 disqus정보 추가
 
-    jekyll serve
+### 6.2 introduce-myself comments 수정 및 disqus 연결
+introduce-myself 포스트에 comments를 true로 설정
+<br> post.html에 disqus를 설
 
-Build page into `_site` folder
+### 7.0 SW2-Adproject post 작성
+SW2-Adproject post 작성
 
-    jekyll build
+### 7.1 disqus 연결
+comments = true로 하여 댓글 기능 가능하게 설정
 
-## Kasper theme includes
+### 8.0 Markdown post작성
+Markdonw post 작성
 
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+### 8.1 disqus 설정 해재
+comments = false 로 설정하여 댓글 기능 비활성화
 
-## Screenshots
+### 9.0 google analytics 가입
+google analytics가입 후 측정 ID값을 받아옴
 
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+### 9.1 google analytics 연결
+_config.yam에 측정 ID 기입
 
+### 9.0 favicon 이미지 추가
+assets/logo.ico 안에 favicon 이미지 저장
 
-## Thanks
-
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
-
-## Copyright & License
-
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### 9.1 favicon 코드 작성
+_layout/default.html의 <head>태그 아래에 코드를 작성
