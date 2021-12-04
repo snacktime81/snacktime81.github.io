@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: ""
 domain_name: "http://127.0.0.1:4000/"
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "G-HWK196QQJ7"
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
