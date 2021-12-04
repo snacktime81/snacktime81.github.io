@@ -7,6 +7,9 @@ categories: jekyll update
 
 # Myself
 Name: Tak-Taehyoen
+
 Age: 19, 2002-09-02
+
 Education: Kookmin Univ. freshman
+
 Major: Computer Science
