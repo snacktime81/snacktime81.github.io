@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "Snacktime's Resume/CV"
 
 markdown: kramdown
 highlighter: rouge
@@ -16,4 +16,8 @@ url: ""
 author: "Your Name"
 
 # Disqus config
-disqus-shortname: ""
+
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "introduce81"
