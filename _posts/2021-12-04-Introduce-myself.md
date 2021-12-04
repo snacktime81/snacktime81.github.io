@@ -3,6 +3,7 @@ layout: post
 title: "Introduce"
 date: 2021-12-04 17:11:12 +0900
 categories: jekyll update
+comments: true
 ---
 
 # Myself
