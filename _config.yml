@@ -11,6 +11,7 @@ domain_name: "http://127.0.0.1:4000/"
 google_analytics: "G-HWK196QQJ7"
 plugins: [jekyll-paginate]
 
+
 # Details for the RSS feed generator
 url: ""
 author: "Snacktime81"
